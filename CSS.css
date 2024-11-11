@@ -1,0 +1,64 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Estilo para el título de la tabla */
+h1 {
+    color: #008080;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Centro y estilo para la tabla */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Estilo para las celdas de la tabla */
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+/* Encabezado de la tabla */
+th {
+    background-color: #008080;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Filas de la tabla */
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Estilo para el borde */
+td {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* Hover sobre filas */
+tr:hover {
+    background-color: #e0f7fa;
+}
+
+/* Mensaje de registros */
+.center-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}

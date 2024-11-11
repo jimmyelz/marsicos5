@@ -1,0 +1,83 @@
+/* Estilos generales para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para centrar el contenido y agregar un fondo */
+.center {
+    text-align: center;
+    margin-top: 100px;
+}
+
+/* Estilo para el título de la página */
+h2 {
+    color: #008080;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para el formulario */
+form {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las etiquetas */
+label {
+    display: block;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los campos de entrada */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Estilo para el botón de inicio de sesión */
+button[type="submit"] {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Efecto hover para el botón */
+button[type="submit"]:hover {
+    background-color: #006666;
+}
+
+/* Estilo para el borde de los campos de entrada */
+input[type="text"]:focus, input[type="password"]:focus {
+    border: 1px solid #008080;
+    outline: none;
+}
+
+/* Mensaje de error o alerta */
+.alerta {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Agregar un pequeño margen a las cajas de entrada */
+input {
+    margin-top: 10px;
+}
